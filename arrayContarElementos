@@ -1,0 +1,14 @@
+<?php
+// Your code here!
+
+$numeros = array (80,30,60,50,80,70,90);
+
+rsort($numeros);
+
+foreach ($numeros as $numero){
+        echo $numero;
+}
+
+echo "logitud de arrar o numeor de elementos".count($numeros);
+
+?>
