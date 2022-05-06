@@ -1,0 +1,20 @@
+<?php
+// Your code here!
+   
+   $numeros = array (10,80,40,30,50);
+   
+   echo "recorrer y mostar ";
+   
+   foreach ($numeros as $numero) {
+       echo $numero."</br>";
+   }
+   //funcion para ordenar el array
+   
+
+   //ordenar
+   sort($numeros);
+   foreach ($numeros as $numero){
+       echo $numero."<br/>";
+   }
+
+?>
